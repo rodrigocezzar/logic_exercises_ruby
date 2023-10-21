@@ -2,8 +2,6 @@
 
 class MultiplicationTable
   def self.calculate(number)
-    # your code here \/ \/ \/
-
-    # your code here /\ /\ /\
+    (1..10).map { |item| "#{number}x#{item} = #{item * number}" }.join(', ')
   end
 end
