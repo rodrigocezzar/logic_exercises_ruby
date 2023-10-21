@@ -2,8 +2,14 @@
 
 class Handshake
   def self.calculate(number)
-    # your code here \/ \/ \/
+    total = 0
 
-    # your code here /\ /\ /\
+    (1..number).each do |i|
+      (i + 1..number).each do |j|
+        total += 1
+      end
+    end
+
+    total
   end
 end
