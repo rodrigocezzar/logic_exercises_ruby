@@ -2,8 +2,11 @@
 
 class DecToBin
   def self.convert(number)
-    # your code here \/ \/ \/
-
-    # your code here /\ /\ /\
+    binary = []
+    while number > 0
+      binary.unshift(number % 2)
+      number = number / 2
+    end
+    binary.join.to_i
   end
 end
