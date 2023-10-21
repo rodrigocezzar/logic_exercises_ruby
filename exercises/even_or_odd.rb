@@ -2,8 +2,8 @@
 
 class EvenOrOdd
   def self.calculate(number)
-    # your code here \/ \/ \/
+    return "#{number} is even" if number.round.even?
 
-    # your code here /\ /\ /\
+    "#{number} is odd"
   end
 end
