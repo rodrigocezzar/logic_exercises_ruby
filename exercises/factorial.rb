@@ -2,8 +2,12 @@
 
 class Factorial
   def self.calculate(number)
-    # your code here \/ \/ \/
+    resultado = 1
 
-    # your code here /\ /\ /\
+    (1..number).each do |i|
+      resultado *= i
+    end
+
+    resultado
   end
 end
