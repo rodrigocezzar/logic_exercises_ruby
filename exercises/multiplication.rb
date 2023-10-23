@@ -2,8 +2,6 @@
 
 class Multiplication
   def self.calculate(number, multiplier)
-    # your code here \/ \/ \/
-
-    # your code here /\ /\ /\
+    number * multiplier
   end
 end
