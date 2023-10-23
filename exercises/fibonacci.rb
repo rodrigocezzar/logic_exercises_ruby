@@ -2,8 +2,8 @@
 
 class Fibonacci
   def self.calculate(number)
-    # your code here \/ \/ \/
+    return number if (0..1).include? number
 
-    # your code here /\ /\ /\
+    (calculate(number - 1) + calculate(number - 2))
   end
 end
